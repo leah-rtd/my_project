@@ -1,2 +1,2 @@
 def preproc(X):
-    return StandardScaler().fit_transform(X)
+    return RobustScaler().fit_transform(X)
